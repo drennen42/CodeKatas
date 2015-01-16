@@ -5,3 +5,11 @@
 ### Specifications
 ##### Write a binary chop method that takes an integer search target and a sorted array of integers. It should return the integer index of the target in the array, or -1 if the target is not in the array.
 ---
+
+Pseudocode:
+1. Get number to search for and the array of numnbers to search in.
+2. Determine the halfway point in the array
+    a. Find the sum of all numbers in array.
+    b. Divide the sum by 2.
+3. Determine whether the number given is in the top or the bottom of the array based on the halfway point.
+4. Run step 2 again, using only the half of the array that the number given is found in.
